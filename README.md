@@ -19,7 +19,7 @@ MacOSの場合は予めHomebrewを導入してください。
 以下のコマンドの引数に[device MODEL]を指定し実行します
 
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Aoi-Developer/BuildManifest-downloader/main/main.sh)
+bash <(curl -s https://raw.githubusercontent.com/Aoi-Developer/BuildManifest-downloader/main/main.sh) [device MODEL]
 ```
 
 おーしまい！ 
