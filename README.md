@@ -5,7 +5,7 @@
 
 # 対応OS
 
-Intel_MacOS(Arm_Macでは未検証)
+Intel_MacOS(Arm_Macでは未検証). 
 x86_64 Debian系OS
 
 # 実行する前に
