@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "#BuildManifest downloader Ver1.0"
+echo "#BuildManifest downloader Ver1.1"
 
 #jqコマンドを確認します
 which jq >/dev/null 2>&1
@@ -83,7 +83,7 @@ if [ $# = 1 ]; then
     cd release
   fi
   release=$(curl -s "https://api.ipsw.me/v4/device/`echo $1`?type=ipsw" | jq ".firmwares[]" 2>/dev/null)
-  beta=$(curl -s "https://api.m1sta.xyz/betas/`echo $1`" | jq ".[]" 2>/dev/null)
+  beta=$(curl -s "https://aoiblog.jp/betas/`echo $1`" | jq ".firmwares[]" 2>/dev/null)
   numbershsh=0
   releasename=$(echo $release | jq -r '.buildid' 2>/dev/null)
   betaname=$(echo $beta | jq -r '.buildid' 2>/dev/null)

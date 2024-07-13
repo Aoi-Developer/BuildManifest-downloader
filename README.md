@@ -32,6 +32,6 @@ bash <(curl -s https://raw.githubusercontent.com/Aoi-Developer/BuildManifest-dow
 https://github.com/tihmstar/partialZipBrowser
 
 # 取得元  
-https://github.com/m1stadev/ios-beta-api  
+http://aoiblog.jp/betas/  
 https://api.ipsw.me/
 
